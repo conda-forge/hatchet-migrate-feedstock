@@ -1,5 +1,5 @@
 context:
-  version: "0.105.21"
+  version: "0.105.22"
 
 package:
   name: hatchet-migrate
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/hatchet-dev/hatchet/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 60e32ab81ee9bf34fbacc5f052a87ce8a9d44cfa1b95b01955fd73f036a73e5c
+    sha256: 1f5abe2c27476b65c23eabd3f6aaf7ec2336446b4775ef9b1eea21d31c8307ba
     target_directory: src
   - url: https://raw.githubusercontent.com/mattn/go-localereader/6bae6c923850ab5e0da9f36f69811ffe17064228/LICENSE
     sha256: dceede03550621e65ec7b79fcba87cf6dbb9d31132a8ae71a8fe8ceec0af7da3
